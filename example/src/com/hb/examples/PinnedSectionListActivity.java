@@ -103,7 +103,12 @@ public class PinnedSectionListActivity extends ListActivity implements OnClickLi
         }
 
     }
-
+/**
+ * 
+ * @author stronglee
+ * SectionIndexer
+ *
+ */
     static class FastScrollAdapter extends SimpleAdapter implements SectionIndexer {
 
         private Item[] sections;
